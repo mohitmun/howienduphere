@@ -2,7 +2,7 @@
   "name": "HowIendUpHere",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "Keeps referrer every links visit, Later analyze your browsing pattern",
+  "description": "Keeps track of referrer for every link visit, Later analyze your browsing pattern",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
