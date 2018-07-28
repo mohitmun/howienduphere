@@ -1,0 +1,33 @@
+{
+  "name": "HowIendUpHere",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Keeps referrer every links visit, Later analyze your browsing pattern",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "options_page": "src/options/index.html",
+  "page_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "page action demo",
+    "default_popup": "src/page_action/page_action.html"
+  },
+  "permissions": [
+    "tabs",
+    "unlimitedStorage",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "js": [
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}
