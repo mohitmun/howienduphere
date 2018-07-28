@@ -22,12 +22,5 @@
     "tabs",
     "unlimitedStorage",
     "storage"
-  ],
-  "content_scripts": [
-    {
-      "js": [
-        "src/inject/inject.js"
-      ]
-    }
   ]
 }
